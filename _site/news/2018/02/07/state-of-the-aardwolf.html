@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  
+<head>
+    <meta charset="utf-8">
+    
+    <title>State of the Aardwolf | Aardwolf | Powering social, connected communities</title>
+    <meta name="description" content="Current state of the Aardwolf code  The server compiles  The Master branch, which uses Handlebars.rs for the web templates will render okay, and work for tes...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/static/styles.css">
+	<link rel="stylesheet" href="/css/forkawesome-1.1.5/fork-awesome.min.css">
+	
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/news/2018/02/07/state-of-the-aardwolf.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Aardwolf | Powering social, connected communities" href="http://localhost:4000/feed.xml" />
+
+	<!-- Google Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+</head>
+
+
+  <body>
+    <div class="nav">
+	<nav>
+	<ul>
+		<li>
+			<a class="page-link" href="/">Home</a>
+		</li>
+		<li>
+			<a class="page-link" href="/#news">Project News</a>
+		</li>
+		
+			
+			<li>
+				<a class="page-link" href="/aardchives.html">The Aardchives</a>
+			</li>
+			
+		
+			
+		
+			
+		
+			
+		
+		
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed"><i class="fa fa-fw fa-rss"></i></a>
+</li>
+
+
+
+<li>
+	<a href="https://github.com/Aardwolf-Social/aardwolf" title="Follow on GitHub"><i class="fa fa-fw fa-github"></i></a>
+</li>
+
+
+
+<li>
+	<a href="https://glitch.social/@aardwolf" title="Follow on Mastodon"><img src="/static/mastodon_logo.svg" style="width:16px"></a>
+</li>
+
+
+		</ul>
+	</nav>
+</div>
+<h1 id="logotype" style="">
+	<span id="head">Aardwolf</span>
+	<span id="subhead">
+	Powering Social, Connected Communities
+	</span></h1>
+
+
+
+    <div class="content">
+      <article>
+
+  <header>
+    <h1 style="" class="title">State of the Aardwolf</h1>
+    <!--  -->
+    <p class="meta">
+    Published February 7, 2018
+    
+    </p>
+  </header>
+
+  <section class="post-content">
+    <h2 id="current-state-of-the-aardwolf-code">Current state of the Aardwolf code</h2>
+<ul>
+  <li>The server compiles</li>
+  <li>The Master branch, which uses Handlebars.rs for the web templates will render okay, and work for testing logins</li>
+  <li>Logins work, but the auth-token is sent to STDOUT so I literally have to copy/paste it into a browser to authenticate new users</li>
+  <li>We are migrating to Tera for templates, but the language files are not -yet- in the correct context which causes a 500 error because Rocket/Tera is trying to populate the ``</li>
+</ul>
+
+<h3 id="high-priority-todos">High Priority TODO’s</h3>
+<ul>
+  <li>Bring the language files from /lang/*.toml into the correct context (fixing Tera runtime issue)</li>
+  <li>Configure something for e-mailing the auth-tokens</li>
+</ul>
+
+<h3 id="alpha-release-mvp-targets">Alpha-release (MVP) Targets</h3>
+<ul>
+  <li>Develop functionality for a single-instance “shoutbox-like” posting</li>
+  <li>Basic federation between two servers</li>
+</ul>
+
+<hr />
+
+  </section>
+
+  <div style="text-align: center; margin: 2% auto; font-size:smaller">
+      
+        <a class="prev" href="/news/2018/02/06/gitlab.html">&laquo; GitLab Mirroring</a>
+      
+       | 
+      
+        <a class="next" href="/news/2018/03/21/Hackers-Guide-to-Mozilla-Sprint.html">Hackers Guide to Mozilla Sprint &raquo;</a>
+      
+  </div>
+
+</article>
+
+    </div>
+
+    <footer class="footer">
+
+	<p class="text">Social, Open, Connected: Aardwolf</p>
+
+	<div class="nav">
+	<nav>
+	<ul>
+		<li>
+			<a class="page-link" href="/">Home</a>
+		</li>
+		<li>
+			<a class="page-link" href="/#news">Project News</a>
+		</li>
+		
+			
+			<li>
+				<a class="page-link" href="/aardchives.html">The Aardchives</a>
+			</li>
+			
+		
+			
+		
+			
+		
+			
+		
+		
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed"><i class="fa fa-fw fa-rss"></i></a>
+</li>
+
+
+
+<li>
+	<a href="https://github.com/Aardwolf-Social/aardwolf" title="Follow on GitHub"><i class="fa fa-fw fa-github"></i></a>
+</li>
+
+
+
+<li>
+	<a href="https://glitch.social/@aardwolf" title="Follow on Mastodon"><img src="/static/mastodon_logo.svg" style="width:16px"></a>
+</li>
+
+
+		</ul>
+	</nav>
+</div>
+</footer>
+
+  </body>
+  
+</html>

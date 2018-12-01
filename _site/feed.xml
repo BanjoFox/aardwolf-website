@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aardwolf | Powering social, connected communities</title>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/</link>
+    <description>Aardwolf is a social platform powering connected communities</description>
+    <pubDate>Sat, 01 Dec 2018 10:38:06 -0500</pubDate>
+    
+      <item>
+        <title>Tera-ble Progress</title>
+        <link>http://localhost:4000/news/2018/11/09/Tera-ble-Progress.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/11/09/Tera-ble-Progress.html</guid>
+        <description>&lt;h3 id=&quot;a-more-modular-hyena&quot;&gt;A more modular hyena&lt;/h3&gt;
+&lt;p&gt;Our dear friend, and colleague Arlo (aka Asonix), has once again blessed us with several metric tonnes of code.  Not the least of which is a more modular backend.  Short version, 
+it is now possible to build with either Rocket.rs, or Actix.  This is really cool because it means that we can do some serious side-by-side testing down the road.  It also has the 
+benefit of providing more choices.  Sadly I am not &lt;em&gt;quite&lt;/em&gt; versed enough to explain why choose one over the other but hey, glad to have the option ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Just a few moments ago &lt;a href=&quot;https://github.com/Aardwolf-Social/aardwolf/pull/159&quot;&gt;PR #159&lt;/a&gt; was merged, thus finally nailing down Tera as our templating language (syntax?) of choice!
+Also included in this is the i18n translation functionality, which has become a pretty important part of the project.  Unfortunately these translations are only with the aardwolf-rocket
+feature, and will not (yet) work on Actix.  Given that the i18n_rocket crate (what we are using for the i18n support) will soon see a major update the decision has been made to hold off 
+on making it work with Actix.  Once the updates have been released, we will look at it with fresh eyes.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Banjo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+***&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Nov 2018 15:47:00 -0500</pubDate>
+      </item>
+    
+      <item>
+        <title>State of the Repo</title>
+        <link>http://localhost:4000/news/2018/10/25/State-of-the-Repo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/10/25/State-of-the-Repo.html</guid>
+        <description>&lt;h3 id=&quot;back-in-action&quot;&gt;Back in action&lt;/h3&gt;
+&lt;p&gt;After a painfully long hiatus, I am finally back, and actively poking away at things.  The &lt;a href=&quot;https://riot.im/app/#/room/#aardwolf-discussion:matrix.org&quot;&gt;chatroom&lt;/a&gt; has sprung to life with some new blood,
+as well as some old faces (welcome back KD0BPV).  While it felt shamefully good to let my brain decompress for a while, I kept always thinking how little progress I was making.  This new influx however, 
+has really rejuvinated my interest, and I’ve been busy chattering away, and posting lots of little updates.&lt;/p&gt;
+
+&lt;h3 id=&quot;thank-you-redditors&quot;&gt;Thank you Redditors&lt;/h3&gt;
+&lt;p&gt;It seems as though some of the new folks have been finding us by way of &lt;a href=&quot;https://www.reddit.com/r/rust/comments/9qle5p/aardwolf_federated_social_network_written_in/&quot;&gt;This Reddit&lt;/a&gt;
+to which I spent the better part of 4 hours frantically trying to reply to!  So if you are on Reddit, please feel free to spread this around, and ask questions as you see fit :)
+I promise I will try to keep up haha :D&lt;/p&gt;
+
+&lt;h3 id=&quot;growing-branches&quot;&gt;Growing Branches&lt;/h3&gt;
+&lt;p&gt;Here is the real meat of the update.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;i18n-templates, with a great deal of help from Redditor christiansakai is now finally in a semi-working state!!
+This branch includes Baptistes rocket_i18n crate for UI translations, as well as switching from Handlebars.js to Tera.rs templates.&lt;/li&gt;
+  &lt;li&gt;Master branch still compiles, and has some minor package updates for WebPack.&lt;/li&gt;
+  &lt;li&gt;Lastly I have added some of my -raw- design_notes to the &lt;a href=&quot;https://github.com/Aardwolf-Social/aardwolf-interface/tree/master/design_notes&quot;&gt;aardwolf-interface repository&lt;/a&gt; for folks that want to visually see
+how I /think/ things should look.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;final-notes&quot;&gt;Final notes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Logging is being looked at again&lt;/li&gt;
+  &lt;li&gt;SMTP functionality is also being re-discussed&lt;/li&gt;
+  &lt;li&gt;The “demo” server still is not ready for registrations, but I am thinking about using a different TLD for it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Banjo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+***&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Oct 2018 15:47:00 -0400</pubDate>
+      </item>
+    
+      <item>
+        <title>The Logos have Arrived</title>
+        <link>http://localhost:4000/news/2018/05/10/The-Logos-have-Arrived.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/05/10/The-Logos-have-Arrived.html</guid>
+        <description>&lt;h3 id=&quot;new-artwork&quot;&gt;New Artwork&lt;/h3&gt;
+&lt;p&gt;I have received a wonderful set of artwork from &lt;a href=&quot;https://beepboop.one/@Alexis&quot;&gt;Alex Daily&lt;/a&gt; that we can use for the Aardwolf project.  There is still some work to be done on our side to get things posted, 
+and credited properly, but its here!  The full set will be included with the other art assets before too much longer.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Banjo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Aaren’t you glad I didn’t title this Aartwork? :P&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;open-to-all-contributors&quot;&gt;Open to All Contributors&lt;/h3&gt;
+&lt;p&gt;Just wanted to give everyone a friendly remind that anyone interested in the project is more than welcome to contribue.  Even if it is something as small as suggesting an edit to fix a spelling error.&lt;br /&gt;
+If you have ever wanted to learn to write code, be it Rust, or HTML/CSS that’s fine too!  We actually have several contributors that are still learning to program, and we are all more than willing to 
+mentor folks that want the help.  Working on a project, and having someone to bounce ideas off of is always a great way to learn new things :D&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Thu, 10 May 2018 10:01:00 -0400</pubDate>
+      </item>
+    
+      <item>
+        <title>Hackers Guide to Mozilla Sprint</title>
+        <link>http://localhost:4000/news/2018/03/21/Hackers-Guide-to-Mozilla-Sprint.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/03/21/Hackers-Guide-to-Mozilla-Sprint.html</guid>
+        <description>&lt;h2 id=&quot;mozilla-global-sprint-2018&quot;&gt;Mozilla Global Sprint 2018&lt;/h2&gt;
+&lt;p&gt;I have submitted the Aardwolf project to Mozilla’s Global Sprint (May 10th-11th), and have been (somewhat) frantically trying to get the repository ready.
+If you would like to check out what other projects are part of go check them out! &lt;a href=&quot;https://foundation.mozilla.org/opportunity/global-sprint/&quot;&gt;Mozilla Global Sprint Homepage&lt;/a&gt;.
+By “getting the repository ready” I mean mostly working on documentation, and trying to better define what in the heck it is we need!
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;hackers-guide-to-aardwolf&quot;&gt;Hackers Guide to Aardwolf&lt;/h3&gt;
+&lt;p&gt;Most of the above has been coming in the form of &lt;strong&gt;&lt;em&gt;The Hackers Guide to Aardwolf&lt;/em&gt;&lt;/strong&gt;.  The hackers guide, is simply a top-level directory which I am using as a library for documenting the development targets/features.
+At this point pretty much all of the docs in here (including the README.md) are first-draft attempts, and likely need a lot of collaboration to really flesh out the ideas.  But hey!  It is a starting point right?
+I should also note that, while there are a few docs in here already, I’ve started a new branch (note_taking) which is currently tracking the chaotic mess of me adding things on the fly.  Hoping to merge this soon.
+&lt;br /&gt;
+If you want a direct link, here you go – &lt;a href=&quot;https://github.com/BanjoFox/aardwolf/tree/master/Hackers-Guide-to-Aardwolf&quot;&gt;Hackers Guide to Aardwolf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;public-demo-closing-user-registrations&quot;&gt;Public demo, closing user registrations&lt;/h3&gt;
+&lt;p&gt;The, seemingly, steady flow of user-auth requests for the live demo have been enough to make me want to put a hiatus on them.  For the time being I’ve frozen the new user creations because there really-and-truly is not much
+more than a static web page that allow authentication.  When we have something more interesitng to look at, the registrations will open again.  If however, you are a developer that would like to do testing, please let me know, and we can work something out :)&lt;/p&gt;
+
+&lt;h3 id=&quot;new-repository-for-aardwolf-interface-hackers&quot;&gt;New repository for Aardwolf Interface hackers&lt;/h3&gt;
+&lt;p&gt;I have created a separate repository that can be used by folks that would prefer to only work on what the future of Aardwolf looks/feels like.
+That is found here: &lt;a href=&quot;https://github.com/BanjoFox/aardwolf-interface&quot;&gt;Aardwolf Interface Development&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 21 Mar 2018 22:21:00 -0400</pubDate>
+      </item>
+    
+      <item>
+        <title>State of the Aardwolf</title>
+        <link>http://localhost:4000/news/2018/02/07/state-of-the-aardwolf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/02/07/state-of-the-aardwolf.html</guid>
+        <description>&lt;h2 id=&quot;current-state-of-the-aardwolf-code&quot;&gt;Current state of the Aardwolf code&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The server compiles&lt;/li&gt;
+  &lt;li&gt;The Master branch, which uses Handlebars.rs for the web templates will render okay, and work for testing logins&lt;/li&gt;
+  &lt;li&gt;Logins work, but the auth-token is sent to STDOUT so I literally have to copy/paste it into a browser to authenticate new users&lt;/li&gt;
+  &lt;li&gt;We are migrating to Tera for templates, but the language files are not -yet- in the correct context which causes a 500 error because Rocket/Tera is trying to populate the ``&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;high-priority-todos&quot;&gt;High Priority TODO’s&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bring the language files from /lang/*.toml into the correct context (fixing Tera runtime issue)&lt;/li&gt;
+  &lt;li&gt;Configure something for e-mailing the auth-tokens&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;alpha-release-mvp-targets&quot;&gt;Alpha-release (MVP) Targets&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Develop functionality for a single-instance “shoutbox-like” posting&lt;/li&gt;
+  &lt;li&gt;Basic federation between two servers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 07 Feb 2018 10:24:00 -0500</pubDate>
+      </item>
+    
+      <item>
+        <title>GitLab Mirroring</title>
+        <link>http://localhost:4000/news/2018/02/06/gitlab.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2018/02/06/gitlab.html</guid>
+        <description>&lt;h2 id=&quot;now-available-on-gitlab&quot;&gt;Now available on GitLab!&lt;/h2&gt;
+
+&lt;p&gt;For those of you that prefer to use GitLab instead of GitHub, I’ve just added the project to the GitLab group And My Axe.
+You can find it here &lt;a href=&quot;https://gitlab.com/AndMyAxe/aardwolf&quot;&gt;Aardwolf on GitLab&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 06 Feb 2018 10:24:00 -0500</pubDate>
+      </item>
+    
+      <item>
+        <title>Introduction</title>
+        <link>http://localhost:4000/news/2017/12/20/faq-contrib.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2017/12/20/faq-contrib.html</guid>
+        <description>&lt;h2 id=&quot;hello&quot;&gt;Hello!&lt;/h2&gt;
+&lt;p&gt;Welcome to the Aardwolf project!&lt;/p&gt;
+
+&lt;p&gt;Not really sure where I should start off but maybe if I just keep typing something cool will come to me… OH, I know!&lt;/p&gt;
+
+&lt;h3 id=&quot;frequently-asked-questions&quot;&gt;Frequently Asked Questions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Why not contribute to Diaspora, Friendica, or [insert_project here]?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A few reasons.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;One, at the time of inception I’d completely forgotten about Diaspora.&lt;/li&gt;
+  &lt;li&gt;Two, I strongly feel that having -more- options is better than fewer.&lt;/li&gt;
+  &lt;li&gt;Finally, I, and the rest of the initial dev-team,  &lt;strong&gt;&lt;em&gt;REALLY&lt;/em&gt;&lt;/strong&gt; just wanted to do a cool project in Rust-lang.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Why did you pick Rust-lang?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because Rust seemed like a cool system-level(ish) language with built-in security. The fact that it can DO web-stuff is also pretty awesome.&lt;/p&gt;
+
+&lt;p&gt;Go checkout &lt;a href=&quot;http://www.arewewebyet.org/&quot;&gt;Are We Web Yet?&lt;/a&gt; for more info on the Rusty Web :)&lt;/p&gt;
+
+&lt;h3 id=&quot;contributors&quot;&gt;Contributors&lt;/h3&gt;
+
+&lt;p&gt;These are the folks I trust implicity with the project&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pete “BanjoFox” - Project Manager, Wiki documentation, supposed to be working on Front-End stuff…&lt;/li&gt;
+  &lt;li&gt;Mark “KD0BPV” - Rust Back-end wizard, also helps keeps Pete in line ;)&lt;/li&gt;
+  &lt;li&gt;Eric “SillyString” - Started the original GitHub project&lt;/li&gt;
+  &lt;li&gt;Paul “pwoolcoc” - Rust back-end, rocket, diesel, lots of other good stuff!&lt;/li&gt;
+  &lt;li&gt;Jason “jfmcbrayer” - Big props to helping with architecture/design considerations&lt;/li&gt;
+  &lt;li&gt;Jen “Ghost” - Future JavaScript wizard, also offered to help with Acessibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oh.. and this guy too.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Steve “Sivy” - The one responsible for the website your reading right now ;), and also some design stuff he may not want me to talk about.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 20 Dec 2017 15:50:00 -0500</pubDate>
+      </item>
+    
+  </channel>
+</rss>

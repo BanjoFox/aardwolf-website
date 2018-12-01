@@ -1,0 +1,97 @@
+# JEKYLL
+encoding: utf-8
+plugins:
+  - jekyll-paginate
+  - jekyll-auto-image
+
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://aardwolf.social" # the base hostname & protocol for your site
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+date_format: "ordinal"
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: /news/feed.xml
+
+# THEME-SPECIFIC CONFIGURATION
+theme_data:
+  # Meta
+  title: "Aardwolf | Powering social, connected communities"
+  # gravatar: 4fe0ff89158486e907c3a19ded9ac0df
+  description: "Aardwolf is a social platform powering connected communities" # used by search engines
+
+  # Header and footer text
+  header_text: ""
+  footer_text: "Social, Open, Connected: Aardwolf"
+  # Icons
+  rss: true
+  github: "Aardwolf-Social/aardwolf"
+  mastodon: "https://glitch.social/@aardwolf"
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PERMALINK
+permalink: /news/:year/:month/:day/:title.html
+
+# PAGINATION
+paginate: 10
+paginate_path: "/news/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+
+# prose:
+#  rooturl: "_posts"
+#  siteurl: "https://www.monkinetic.blog"
+#  media: "images"
+#  metadata:
+#    _posts:
+#      - name: "title"
+#        field:
+#          element: "text"
+#          label: "Title"
+#      - name: "type"
+#        field:
+#          element: "select"
+#          label: "Type"
+#          value: "post"
+##          options:
+#            - name: 'Post'
+#              value: 'post'
+##            - name: 'Note'
+#              value: 'note'
+#      - name: "excerpt"
+#        field:
+#          element: "textarea"
+#          label: "Post Excerpt"
+#          help: "Short description for longer posts"
+#      - name: "feature-img"
+#        field:
+#          element: "text"
+#          label: "Feature Img"
+#          help: "image in the images/ folder"
