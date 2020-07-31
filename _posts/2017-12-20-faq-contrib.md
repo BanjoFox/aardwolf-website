@@ -22,7 +22,7 @@ A few reasons.
 
 Because Rust seemed like a cool system-level(ish) language with built-in security. The fact that it can DO web-stuff is also pretty awesome. 
 
-Go checkout [Are We Web Yet?](http://www.arewewebyet.org/) for more info on the Rusty Web :)
+Go checkout [Are We Web Yet?](https://www.arewewebyet.org/) for more info on the Rusty Web :)
 
 
 ### Contributors
